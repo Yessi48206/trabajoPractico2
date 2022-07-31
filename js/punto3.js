@@ -6,8 +6,8 @@ let palabra;
 do{
     text= prompt("ingrese texto");
     console.log(text);
-    document.write(text + "-");
-}while(confirm("quiere seguir ingresando") == true)
+    document.write(text + "-")
+}while(text != undefined)
 //cadena concatenada con guion
 
 /*if (confirm("Press a button!") == true) {
