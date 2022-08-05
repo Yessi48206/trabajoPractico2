@@ -50,3 +50,22 @@ else if(edad1>edad2 && edad1>edad3){
 }else{
     document.write("el mayor es :"+ nombre2);
 }
+document.write("<br>");
+document.write("<h2>ejercicio 12</h2>");
+document.write("<br>");
+/*12- Realiza un script que genere un número aleatorio entre 1 y 99*/
+
+//FUNCIÓN Math.floor: redondea al número entero menor.
+    //FUNCIÓN Math.random: devuelve un número aleatorio mayor que 0 y menor que 1
+    var num = Math.floor((Math.random() * 99) + 1);
+    document.write(num);
+
+    document.write("<br>");
+    document.write("<h2>ejercicio 13</h2>");
+    document.write("<br>");
+/*13- Realiza un script que pida un texto y lo muestre en mayúsculas*/
+//toLowerCase() para convertir a «minúsculas», y la función toUpperCase() para convertir a «mayúsculas»
+
+let texto = prompt("Introduce el texto");
+document.write("TEXTO: " + texto.toUpperCase() + ".");
+
